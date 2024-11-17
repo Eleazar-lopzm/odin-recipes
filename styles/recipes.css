@@ -1,0 +1,72 @@
+*{
+    font-family: 'Times New Roman',Verdana ,monospace;
+}
+
+
+body{
+    background-color: rgb(255, 179, 0);
+    background-image: url(/images/fondo-comida.svg) ;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-attachment: fixed ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1,h2{
+    color: firebrick ;
+    background-color: orange;
+    border: dotted ;
+    border-radius: 10px;
+    padding:5px;
+
+}
+
+p{
+    color: whitesmoke;
+    background-color:#201c29;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+ul{
+   background-color:orange; 
+   padding:20px;
+   text-align: justify;
+   border-radius: 8px;
+}
+
+ol li{
+    background-color: orange;
+    padding:15px;
+    margin:auto;
+    position: relative;
+    margin: 10px 0;
+    border-radius: 8px;
+    list-style: none;
+}
+
+ol li::before {
+    content: counter(item) ". "; /* Añade el índice */
+    counter-increment: item; /* Incrementa el contador */
+    position: absolute;
+    left: -30px; /* Ajusta según sea necesario */
+    top: 50%;
+    transform: translateY(-50%);
+    color: chocolate; /* Color del índice */
+    font-weight: bold;
+    font-size: 2em; /* Tamaño de fuente mayor para el índice */
+}
+
+ol {
+    counter-reset: item; /* Resetea el contador en listas ordenadas */
+}
+
+img{
+    border-radius: 15px;
+    height: 100 px;
+    width:auto;
+}
+

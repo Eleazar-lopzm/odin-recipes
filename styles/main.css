@@ -1,0 +1,43 @@
+*{
+    font-family: 'Times New Roman',Verdana ,monospace;
+}
+
+
+body{
+    background-color: rgb(255, 179, 0);
+    background-image: url(/images/fondo-comida.svg) ;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-attachment: fixed ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    color: firebrick ;
+    text-align: center;
+    background-color: orange;
+    border: dashed orangered;
+    border-radius: 20px;
+    font-weight: bolder;
+    padding:10px;
+}
+
+ul{
+    width: 50%;
+    text-align: center;
+    list-style: none;
+    background: orange;
+    border:dotted orangered ;
+    font-size: 24px;
+    font-weight:bold;
+    border-radius: 8px;
+    padding: 10px; /* Espacio interno */
+}
+
+ul li a{
+    color:firebrick;
+    text-decoration: none;
+}
