@@ -5,7 +5,7 @@
 
 body{
     background-color: rgb(255, 179, 0);
-    background-image: url(../images/fondo-comida.png) ;
+    background-image: url('/images/fondo-comida.svg') ;
     background-repeat: no-repeat ;
     background-size: cover;
     background-attachment: fixed ;
